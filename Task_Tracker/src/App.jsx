@@ -1,6 +1,7 @@
 import './App.css';
 import Header from "./component/Header.jsx"; 
 import Task from "./component/Task.jsx";
+import Add from './component/Add.jsx';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <Task/>
       <Task/>
       <Task/>
+      <footer>
+        <Add/>
+      </footer>
     </div>
     
   );
